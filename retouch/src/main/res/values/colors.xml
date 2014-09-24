@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow1">#ffc29f0f</color>
+    <color name="yellow2">#ffffff99</color>
+    <color name="grey05">#ffe4e4e4</color>
+    <color name="orange4">#ffff6600</color>
+    <color name="orange5">#ffff6600</color>
+    <color name="orange6">#ffce5f00</color>
+    <color name="blue2">#ff6600ff</color>
+    <color name="blue10">#ff3032ff</color>
+    <color name="blue25">#ff3366ff</color>
+    <color name="green1">#ff009900</color>
+    <color name="green2">#ff33cc33</color>
+    <color name="red1">#ffb70808</color>
+    <color name="grey1">#ff787471</color>
+    <color name="black">#ff000000</color>
+    <color name="switchEnabled">#ff43ff62</color>
+    <color name="switchDisabled">#ff206f32</color>
+
+    <color name="card_background">#000</color>
+    <color name="card_background_header">#FFF</color>
+    <color name="card_backgroundExpand">#515254</color>
+
+    <color name="card_text_color_header">#000</color>
+    <color name="card_expand_title_color">#B3B2B2</color>
+
+    <!-- Used by selector -->
+    <color name="card_pressed">#7E0099CC</color>
+    <color name="card_activated">#CFE9F3</color>
+
+    <color name="card_pressed_kitkat">#10000000</color>
+    <color name="card_activated_kitkat">#ADE1F4</color>
+
+
+    <color name="pastel_blue">#8ED6EA</color>
+    <color name="pastel_orange">#FFCE73</color>
+    <color name="pastel_purple">#D881ED</color>
+    <color name="pastel_red">#FF7373</color>
+    <color name="pastel_green">#ABFF73</color>
+    <color name="pastel_yellow">#FFF06A</color>
+    <color name="pastel_cyan">#A5D3CA</color>
+    <color name="pastel_violet">#B0A7F1</color>
+
+    <color name="white_button_disabled">#11000000</color>
+    <color name="transparent">#00000000</color>
+    
+    
+    <color name="white_button_drop_disabled">@color/transparent</color>
+    <color name="green_button_disabled">@color/white_button_disabled</color>
+    <color name="green_button_drop_disabled">@color/transparent</color>
+    <color name="green_button_drop_enabled">@color/green_leaf_dark</color>
+    <color name="green_button_drop_pressed">@color/green_leaf_dark</color>
+    <color name="green_button_drop_selected">@color/green_leaf_dark</color>
+    <color name="green_button_enabled">@color/green_leaf</color>
+    <color name="green_button_pressed">@color/green_leaf_dark</color>
+    <color name="green_button_selected">@color/green_leaf_light</color>
+    <color name="green_leaf">#ff77c924</color>
+    <color name="green_leaf25">#4077c924</color>
+    <color name="green_leaf_dark">#ff6cb51f</color>
+    <color name="green_leaf_light">#ffb6f52f</color>
+
+    <color name="red_button_disabled">@color/white_button_disabled</color>
+    <color name="red_button_drop_disabled">@color/white_button_drop_disabled</color>
+    <color name="red_button_drop_enabled">@color/red_dark</color>
+    <color name="red_button_drop_pressed">@color/red_dark</color>
+    <color name="red_button_drop_selected">@color/red_dark</color>
+    <color name="red_button_enabled">@color/red</color>
+    <color name="red_button_pressed">@color/red_dark</color>
+    <color name="red_button_selected">@color/red_light</color>
+    <color name="red_dark">#ffcc0000</color>
+    <color name="red_google">#ffe73f25</color>
+    <color name="red_light">#ffff7979</color>
+    <color name="red_pale">#ffffeceb</color>
+    <color name="red_pale_dark">#ffe83c1e</color>
+    <color name="red">#ffd33131</color>
+
+
+
+
+</resources>

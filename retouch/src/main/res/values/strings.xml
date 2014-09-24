@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Retouch</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="amount">Amount</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_save_as_png">Save as PNG </string>
+    <string name="maintain_transparency">Maintain the transparency</string>
+    <string name="unable_to_save_data">Unable to save data</string>
+    <string name="save_completed">Save completed.</string>
+    <string name="there_was_an_error_while">There was an error while restoring</string>
+    <string name="undo">undo</string>
+    <string name="redo">redo</string>
+    <string name="wait">Wait</string>
+    <string name="save_in_progress">Save in progress</string>
+    <string name="restore_original">Restore original</string>
+    <string name="confirm_restore_image_msg">Are you sure you want to restore the original image?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="brightness">Brightness</string>
+    <string name="contrast">Contrast</string>
+    <string name="saturation">Saturation</string>
+    <string name="negative">Negative</string>
+    <string name="colorize">Colorize</string>
+    <string name="desaturate">Desaturate</string>
+    <string name="overlay_red">Overlay Red</string>
+    <string name="overlay_green">Overlay Green</string>
+    <string name="overlay_blue">Overlay Blue</string>
+    <string name="reflect">Reflect</string>
+    <string name="round_corners">Round corners</string>
+    <string name="exit_without_saving_msg">Are you sure you want to exit without saving ?</string>
+
+</resources>

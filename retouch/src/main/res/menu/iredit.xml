@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mauthe.retouch.IREditActivity" >
+    
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_restorefile"
+        android:title="Restore"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:enabled="false"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_undo"
+        android:title="Undo"
+        android:enabled="false"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_redo"
+        android:title="redo"
+        android:enabled="false"
+        android:icon="@drawable/ic_menu_redo"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+
+    <item android:id="@+id/action_savefile"
+        android:title="Save"
+        android:enabled="false"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+</menu>

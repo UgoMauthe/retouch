@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/editbackground"
+    tools:context="com.mauthe.retouch.IREditActivity">
+
+    <LinearLayout
+        android:keepScreenOn="true"
+        android:id="@+id/llConfirmChanges"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:divider="@drawable/effect_divider"
+        android:showDividers="middle"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnConfirmChanges"
+            android:layout_width="wrap_content"
+            android:alpha = "0.9"
+            android:text="@string/ok"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/btn_green"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnCancelChanges"
+            android:alpha = "0.9"
+            android:layout_width="wrap_content"
+            android:text="@string/cancel"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:background="@drawable/btn_red"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llEffectMasterContainer"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true"
+        android:layout_height="fill_parent">
+
+        <ScrollView
+            android:id="@+id/hsvScroller"
+            android:layout_width="wrap_content"
+            android:padding="3dp"
+            android:scrollbars="none"
+            android:background="@drawable/effect_selectorbg"
+            android:layout_height="fill_parent">
+        <LinearLayout
+            android:id="@+id/llCardEffectContainer"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+
+            android:showDividers="middle"
+            android:divider="@drawable/effect_divider_vert"
+            android:background="@null"
+
+            android:layout_height="wrap_content">
+        </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/llEditEffect"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:showDividers="middle"
+            android:divider="@drawable/effect_divider"
+            android:orientation="vertical"
+            android:background="@drawable/effect_selectorbg"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/amount"
+                android:textColor="#fff"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content" />
+
+            <com.mauthe.retouch.comp.VerticalSeekBar
+                android:id="@+id/sbEffectBar"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pbProgress"
+        android:layout_width="wrap_content"
+        android:paddingLeft="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:keepScreenOn="true"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_alignParentRight="true"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft ="110dp"
+
+
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>

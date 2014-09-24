@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/editbackground"
+    android:gravity="center"
+    tools:context="com.mauthe.retouch.IRMainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <ImageButton
+        android:id="@+id/ivPickFromGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pick_gallery_btn"
+        android:background="@null"
+        />
+
+    <ImageButton
+        android:layout_marginLeft="90dp"
+        android:id="@+id/ivTakeShoot"
+        android:layout_alignBottom="@+id/ivPickFromGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/take_picture_btn"
+        android:background="@null"
+        />
+    </LinearLayout>
+</RelativeLayout>
